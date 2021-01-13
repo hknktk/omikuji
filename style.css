@@ -162,8 +162,8 @@ header {
   height: 30px;
   width: 100px;
   position: relative;
-  left: 400px;
-  top: 10px;
+  left: 25%;
+  bottom: 30px;
   visibility: visible;
   text-align: center;
 }
@@ -171,8 +171,8 @@ header {
 .advice {
   display: block;
   position: relative;
-  left: 800px;
-  top: 20px;
+  left: 15%;
+  top: 60%;
   width: 400px;
   height: 250px;
 }
@@ -275,11 +275,11 @@ header {
   #bx > .box {
     position: relative;
     top: 15px;
-    right: 10px;
+    right: 13px;
     writing-mode: vertical-lr;
     font-weight: bold;
     font-size: 20px;
-    padding: 5px;
+    padding: 3px 2px;
     color: rgb(255, 255, 255);
   }
 
@@ -297,10 +297,10 @@ header {
     text-orientation: upright;
     position: absolute;
     margin: 0 auto;
-    top: 25%;
+    top: 20%;
     left: 49%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%);
+    /* transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%); */
     width: 18px;
     height: 100px;
     background-color: rgb(0, 0, 0);
@@ -313,17 +313,17 @@ header {
   @keyframes result {
     0% {
       opacity: 0;
-      transform: translateY(-30px);
+      transform: translateY(0px);
     }
 
     50% {
       opacity: 0;
-      transform: translateY(30px);
+      transform: translateY(60px);
     }
 
     100% {
       opacity: 1;
-      transform: translateY(110px);
+      transform: translateY(80px);
     }
   }
 
@@ -392,7 +392,8 @@ header {
     height: 20px;
     width: 70px;
     position: relative;
-    left: 20px;
+    left: 15%;
+    top: 50px;
     visibility: visible;
     text-align: center;
   }
@@ -401,8 +402,8 @@ header {
     margin-top: 30px;
     display: block;
     position: relative;
+    left: 15%;
     top: 100px;
-    left: 5px;
     width: 300px;
     height: 100px;
   }
