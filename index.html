@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>１日の運勢を占おう！</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>今日の運試し</h1>
+    </header>
+    <main>
+      <div class="contents">
+        <div id="omkj">
+          <ul id="bx">
+            <li class="box">おみくじ</li>
+          </ul>
+        </div>
+
+        <div class="local">
+          <ul id="stick">
+            <li id="result"></li>
+          </ul>
+        </div>
+
+        <div id="start">
+          <div id="push">
+            <p>占う</p>
+          </div>
+        </div>
+
+        <div class="restart">
+          <button id="more">もう一度</button>
+        </div>
+
+        <div class="advice">
+          <h2 id="title">一言アドバイス</h2>
+          <p id="word"></p>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
