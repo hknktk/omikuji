@@ -318,12 +318,12 @@ header {
 
     50% {
       opacity: 0;
-      transform: translateY(10px);
+      transform: translateY(35px);
     }
 
     100% {
       opacity: 1;
-      transform: translateY(30px);
+      transform: translateY(50px);
     }
   }
 
